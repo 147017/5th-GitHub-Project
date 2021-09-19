@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>1st Visual Studio Project</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1>Open the console please. (Right-click > Inspect > Console)</h1>
+<script>
+var firstname = "Rohan ";
+console.log("First name:-" + firstname);
+var lastname = "Shetty";
+console.log("Last name:-" + lastname);
+var fullname = firstname.concat(lastname);
+console.log("Full name:-" + fullname);
+var length = fullname.length;
+console.log("Length of full name:-" + length);
+var wrong = "I like peaches adn plums.";
+console.log("Sentence with mis-spelt word:-" + wrong);
+console.log("Sentence with correctly spelt word:-" + wrong.replace("adn","and"));
+var Sentence = "i LiKe JaSmInE aNd RoSeS."
+console.log("Sentence:-" + Sentence);
+console.log("Sentence in lowercase:-" + Sentence.toLowerCase());
+console.log("Sentence in uppercase:-" + Sentence.toUpperCase());
+var Shop_A = "105"
+var Shop_B = "345"
+var Shop_C = "230"
+console.log("Shop A sells marbles at " + Shop_A + " rupees per packet.");
+console.log("Shop B sells marbles at " + Shop_B + " rupees per packet.");
+console.log("Shop C sells marbles at " + Shop_C + " rupees per packet.");
+var array = ["Shop B sells the most expensive marbles","Shop C sells the most expensive marbles","Shop A sells the most expensive marbles"]
+var max = Math.max(Shop_A,Shop_B,Shop_C)
+if(max == Shop_B){
+console.log(array[1]);
+}
+if(max == Shop_C){
+console.log(array[2]);
+}
+if(max == Shop_A){
+console.log(array[3]);
+}
+console.log("The absolute of -2148.2817 is " + Math.abs(-2148.2817));
+</script>
+</body>
+</html>
